@@ -6,7 +6,11 @@
 	<artifactId>httpd</artifactId>
 	<version>1.1.2</version>
 	<description>simple http server</description>
-
+        <properties>
+		<sonar.organization>saquib1928</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectKey>saquib1928_httpdd</sonar.projectKey>
+	</properties>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<url>https://github.com/ggrandes/${project.artifactId}</url>
 	<licenses>
